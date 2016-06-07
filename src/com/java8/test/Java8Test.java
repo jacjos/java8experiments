@@ -38,6 +38,12 @@ public class Java8Test {
 		
 		RulesEngine.runRule((t) -> {System.out.println("executing lambda rule : " + t); return "Done";} , 1);
 		RulesEngine.runRule(Java8Test::checkValRule, "checkValRuleParam");
+		
+		IRule<String, String> ruleA = (String t)-> {System.out.println("executing ruleA : " + t); return "ResultA";};
+		IRule<String, String> ruleB = (String t)-> {System.out.println("executing ruleB : " + t); return "Done";};
+		
+		RulesEngine.runRule(ruleA.andThen(ruleB), "runRuleParam ");
+		ruleA.andThen(ruleB).executeRule("RuleAParam");
 	}
 	
 	public static String checkValRule(String str){
