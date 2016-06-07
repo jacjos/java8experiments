@@ -37,3 +37,18 @@ BufferedReader reader = Files.newBufferedReader(Paths.get("File.txt"), StandardC
 //BufferedReader's lines methods returns a stream of all lines
 reader.lines().forEach(System.out::println);
 ```
+**Stream APIs**
+ * Intermediate -- filter, map, flatMap, reduce -- Integer::min, Integer::max, distinct, limit, skip, sorted, sorted(Comparator.reverseOrder()), 
+ * Terminal -- collect, anyMatch, allMatch, noneMatch, findAny, findFirst
+
+###Utils
+
+**Optional**
+ * ifPresent()
+
+**SpliIterator**
+
+**New Date APIs**
+
+**Comparator.comparing**
+
