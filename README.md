@@ -1,8 +1,8 @@
 # Java 8 Notes
 
 ### Relevance of Abstract Classes
-Abstract classes can hold state (member variables), which FI cannot do.
-FI -- Class can do implements of multiple FIs achieving multiple inheritance directly.
+* Abstract classes can hold state (member variables), which FI cannot do.
+* FI -- Class can do implements of multiple FIs achieving multiple inheritance directly.
 
 ###Built in Functional Interfaces (util.functions)
 https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
