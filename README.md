@@ -11,6 +11,8 @@ https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.htm
 ###Streams 
 [Reference](http://java.amitph.com/2014/01/understanding-java-8-streams-api.html#.V1ajgNJ97cs)
 
+[Oracle Docs](https://docs.oracle.com/javase/tutorial/collections/streams/)
+
 **Intermediate Operations and Terminal Operations**
   * The intermediate operations will not be invoked until the terminal operation is invoked.
 
@@ -40,6 +42,8 @@ reader.lines().forEach(System.out::println);
 **Stream APIs**
  * Intermediate -- filter, map, flatMap, reduce -- Integer::min, Integer::max, distinct, limit, skip, sorted, sorted(Comparator.reverseOrder()), 
  * Terminal -- collect, anyMatch, allMatch, noneMatch, findAny, findFirst
+
+**[Parallelism] (https://docs.oracle.com/javase/tutorial/collections/streams/parallelism.html)**
 
 ###Utils
 
