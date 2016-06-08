@@ -56,3 +56,12 @@ reader.lines().forEach(System.out::println);
 
 **Comparator.comparing**
 
+**java.util.stream.Collectors** ([Ref](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html))
+ * Collectors.toList()
+ * Collectors.toCollection(TreeSet::new)
+ * Collectors.joining(", ")
+ * Collectors.summingInt(Employee::getSalary))
+ * Collectors.groupingBy(Employee::getDepartment) -- returns Map
+ * Collectors.groupingBy(Employee::getDepartment,Collectors.summingInt(Employee::getSalary))
+ * Collectors.partitioningBy(s -> s.getGrade() >= PASS_THRESHOLD) -- retruns map with boolean key
+
