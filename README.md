@@ -1,7 +1,9 @@
 # Java 8 Notes
 
+**Table of Contents**
+
 ### Relevance of Abstract Classes
-* Abstract classes can hold state (member variables), which FI cannot do.
+* Abstract classes can hold dynamic(non final) state (member variables), which FI cannot do. Although FIs(& interfaces) can hold final member variables.
 * FI -- Class can do implements of multiple FIs achieving multiple inheritance directly.
 
 ###Built in Functional Interfaces (util.functions)
