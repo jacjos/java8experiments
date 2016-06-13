@@ -1,12 +1,6 @@
 # Java 8 Notes
 
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Java 8 Notes](#)
-		- [Relevance of Abstract Classes](#)
-		- [Built in Functional Interfaces (util.functions)](#)
-		- [Streams](#)
-		- [Utils](#)
 
 ### Relevance of Abstract Classes
 * Abstract classes can hold dynamic(non final) state (member variables), which FI cannot do. Although FIs(& interfaces) can hold final member variables.
@@ -73,3 +67,30 @@ reader.lines().forEach(System.out::println);
  * Collectors.groupingBy(Employee::getDepartment,Collectors.summingInt(Employee::getSalary))
  * Collectors.partitioningBy(s -> s.getGrade() >= PASS_THRESHOLD) -- retruns map with boolean key
 
+**Strings** ([Ref](http://winterbe.com/posts/2015/03/25/java8-examples-string-number-math-files/))
+ * concatenation
+ ```Java
+ String.join(":", "foobar", "foo", "bar");
+// => foobar:foo:bar
+ ```
+ * Split
+ ```Java
+ Pattern.compile(":")
+    .splitAsStream("foobar:foo:bar")
+    .filter(s -> s.contains("bar"))
+    .sorted()
+    .collect(Collectors.joining(":"));
+// => bar:foobar
+
+//OR
+
+Pattern pattern = Pattern.compile(".*@gmail\\.com");
+Stream.of("bob@gmail.com", "alice@hotmail.com")
+    .filter(pattern.asPredicate())
+    .count();
+// => 1
+ ```
+***Files***([Ref](http://winterbe.com/posts/2015/03/25/java8-examples-string-number-math-files/))
+```Java
+(Stream<Path> stream = Files.list(Paths.get("")))
+```
