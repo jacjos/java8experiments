@@ -1,6 +1,6 @@
 # Java 8 Notes
 
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+**Table of Contents**
 
 - [Relevance of Abstract Classes](#relevance-of-abstract-classes)
 - [Built in Functional Interfaces (util.functions)](#built-in-functional-interfaces-utilfunctions)
