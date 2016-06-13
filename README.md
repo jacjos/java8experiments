@@ -5,6 +5,7 @@
 - [Relevance of Abstract Classes](#relevance-of-abstract-classes)
 - [Built in Functional Interfaces (util.functions)](#built-in-functional-interfaces-utilfunctions)
 - [Streams](#streams)
+- [Repeatable Annotations](#repeatable-annotations)
 - [Utils](#utils)
 
 ### Relevance of Abstract Classes
@@ -51,6 +52,9 @@ reader.lines().forEach(System.out::println);
  * Terminal -- collect, anyMatch, allMatch, noneMatch, findAny, findFirst
 
 **[Parallelism] (https://docs.oracle.com/javase/tutorial/collections/streams/parallelism.html)**
+
+###Repeatable Annotations
+[Ref](http://winterbe.com/posts/2014/03/16/java-8-tutorial/)
 
 ###Utils
 
