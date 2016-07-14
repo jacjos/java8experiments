@@ -143,3 +143,12 @@ map.get(9);             // val9
 map.merge(9, "concat", (value, newValue) -> value.concat(newValue));
 map.get(9);             // val9concat
 ```
+
+**Further Reading**
+* Whats New in Java 8 -- http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html
+* Oracle Overview of Features -- http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html
+* http://www.oracle.com/technetwork/articles/java/ma14-java-cover-2177777.html
+* Date Time -- http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html
+* Metaspace -- https://dzone.com/articles/java-8-permgen-metaspace
+* Functional Interfaces Specs -- https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.8
+* OReilly Training -- http://www.oreilly.com/online-training/refactoring-legacy-code-with-java-8.html
