@@ -152,3 +152,4 @@ map.get(9);             // val9concat
 * Metaspace -- https://dzone.com/articles/java-8-permgen-metaspace
 * Functional Interfaces Specs -- https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.8
 * OReilly Training -- http://www.oreilly.com/online-training/refactoring-legacy-code-with-java-8.html
+* http://winterbe.com/posts/2014/03/16/java-8-tutorial/
