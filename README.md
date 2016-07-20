@@ -154,3 +154,4 @@ map.get(9);             // val9concat
 * OReilly Training -- http://www.oreilly.com/online-training/refactoring-legacy-code-with-java-8.html
 * http://winterbe.com/posts/2014/03/16/java-8-tutorial/
 * Java 8 Features/Resources -http://www.baeldung.com/java8
+* Metaspace - http://javaeesupportpatterns.blogspot.in/2013/02/java-8-from-permgen-to-metaspace.html
