@@ -155,3 +155,11 @@ map.get(9);             // val9concat
 * http://winterbe.com/posts/2014/03/16/java-8-tutorial/
 * Java 8 Features/Resources -http://www.baeldung.com/java8
 * Metaspace - http://javaeesupportpatterns.blogspot.in/2013/02/java-8-from-permgen-to-metaspace.html
+* CompletableFuture - http://www.deadcoderising.com/java8-writing-asynchronous-code-with-completablefuture/
+* Concurrency - http://www.ibm.com/developerworks/java/library/j-jvmc2/index.html
+* http://docs.oracle.com/javase/8/docs/technotes/guides/concurrency/changes8.html
+* Java SE Platform - http://www.oracle.com/technetwork/java/javase/tech/index.html
+
+**Refactoring**
+* http://code.tutsplus.com/tutorials/refactoring-legacy-code-part-1-the-golden-master--cms-20331
+* 
